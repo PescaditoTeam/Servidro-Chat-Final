@@ -10,6 +10,7 @@ import javax.swing.GroupLayout.Alignment;
 import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JLabel;
+import java.awt.Font;
 
 public class ServerFrame extends javax.swing.JFrame {
 
@@ -66,7 +67,7 @@ public class ServerFrame extends javax.swing.JFrame {
         });
 
         jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Consolas", 0, 12)); // NOI18N
+        jTextArea1.setFont(new Font("Dialog", Font.PLAIN, 14)); // NOI18N
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
